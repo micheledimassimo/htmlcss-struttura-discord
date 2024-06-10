@@ -11,6 +11,12 @@ header.debug {
     padding-top: 20px;
 }
 
+footer.debug {
+    background-color: #23272A;
+    height: 80px;
+    padding-top: 20px;
+}
+
 
 
 .container-header {
@@ -68,7 +74,27 @@ header.debug {
     background-color: #23272A;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.container-box {
+    display: flex;
+}
+.container-footer {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.2m;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7FFFD4;
+    
 }   
+.footer-items {
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+   
+}
 /*boxes*/
 .pink-box {
     max-width: 700px;
@@ -101,13 +127,9 @@ header.debug {
 .container-box {
     width: 1000px;
     max-height: 550px;
-    
     margin: auto;
-    
-}
-.container-box {
-    display: flex;
-}
+}   
+
 .red-box {
     height: 450px;
     width: 350px;
