@@ -15,9 +15,8 @@ footer.debug {
     background-color: #23272A;
     height: 80px;
     padding-top: 20px;
+    
 }
-
-
 
 .container-header {
     max-width: 1000px;
@@ -27,8 +26,23 @@ footer.debug {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px dashed black;
+    
     background-color: #DAA520;
+}
+
+.header-items {
+    border: 2px dashed black;
+    
+}
+.class25 {
+    width: 25%;
+}
+.class50{
+    width: 50%;
+    text-align: center;
+}
+.align-right {
+    text-align: right;
 }
 /*main*/
 .container-section1 {
@@ -74,6 +88,7 @@ footer.debug {
     background-color: #23272A;
     padding-top: 50px;
     padding-bottom: 50px;
+    border-bottom: 2px solid white;
 }
 
 .container-box {
